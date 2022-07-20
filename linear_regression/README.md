@@ -7,4 +7,4 @@ As a result of this calculation we'll have the drawing of a line and three impor
 
 	1. The Slope: Indicate the line angle , 
 	2. Intercept: indicate the line position in the chat (bellow or before) from X axis
-Score: Indicate the percentage of error that we have in our model 
+    3. Score: Indicate the percentage of error that we have in our model 
