@@ -1,4 +1,4 @@
-# linear regression
+# Linear regression
 The Linear Regression Algorithm uses a mathematical concept of derivative calculation to perform the predictive model
 
 Then when we deliver the data it will use a mathematical formula to find the value of the derivative for all variables present in the delivered data, except the one that is our target.
