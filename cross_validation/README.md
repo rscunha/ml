@@ -6,11 +6,13 @@ The technique consists of splitting the data into a number of folds with the sam
 
 For example:
 
-|**TEST**	TRAIN	TRAIN	TRAIN	TRAIN|
-|TRAIN	**TEST**	TRAIN	TRAIN	TRAIN|
-|TRAIN	TRAIN	**TEST**	TRAIN	TRAIN|
-|TRAIN	TRAIN	TRAIN	**TEST**	TRAIN|
-|TRAIN	TRAIN	TRAIN	TRAIN	**TEST** |
+|FOLD 1|FOLD 2|FOLD 3|FOLD 4|FOLD 5|
+|------|------|------|------|------|
+|**TEST**|TRAIN|TRAIN|TRAIN|TRAIN|
+|TRAIN|**TEST**|TRAIN|TRAIN|TRAIN|
+|TRAIN|TRAIN|**TEST**|TRAIN|TRAIN|
+|TRAIN|TRAIN|TRAIN|**TEST**|TRAIN|
+|TRAIN|TRAIN|TRAIN|TRAIN|**TEST**|
 
 The table above shows five folds (k=5) which are the data blocks  used to validate the regression model.
 
