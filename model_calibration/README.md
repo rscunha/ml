@@ -10,3 +10,6 @@ So we need to think of algorithms that do this automatically for us. For example
 
 ## Randomized Search
 This function implements a randomized search over parameters, where each setting is sampled from a distribution over possible parameter values.
+
+## Grid Search CV
+This function is similar to the Randomized Search, the only difference is that while Randomized Search CV performs a limited numbers of iterations the Grid Search CV combines all possible parameter values. 
