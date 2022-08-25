@@ -14,7 +14,7 @@ Because of this, we need to apply a technique called Confusion Matrix:
 
 The best way to explain it is by showing the table bellow:
 
-![Confusion Matrix][confusion_matrix.png]
+![Confusion Matrix](confusion_matrix.png)
 
 The image above show us all possibilities that Machine Learning Model can evaluate for us.
 
