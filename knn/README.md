@@ -9,5 +9,3 @@ Knowing we already have two groups of classified data, we now want to classify a
 IMPORTANT
 
 As the kNN algorithm processes a calculation between all the  variables, it is a best practice that all the predictor variables are normalized, because as the calculation is performed in a hyperspace, the values can be very different from each other and, therefore, the model may suffer some negative interference.
-
-As the kNN algorithm processes a calculation between all the variables, it is a good practice that all the predictor variables are normalized, because as the calculation is performed in a hyperspace, the values can be very different from each other and, therefore, the model may suffer some negative interference. .
