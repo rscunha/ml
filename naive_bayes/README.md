@@ -36,3 +36,17 @@ Out of 10 that have cancer, 9 got the test right, and out of 990 the test failed
 The Naive Bayes algorithm creates a generic formula from a problem like this one and you will apply the same solution to any problem of this type that you  want to solve. See below the Naive Bayes Formula:
 
 P(A/B) = (P(B/A) * P(A)) / P(B/A) * P(A) + P(B/!A) * P(!A)
+
+Anoter important concept about this theorem is because we can have three diferents types of problems of probability:
+
+    - 1. Calculation with discret number, (1,2,3,4)
+    - 2. Calculation with discret numbers and binary values for target variable
+        - whole numbers for predictos variables (1,2,3,4)
+        - binary values for target variable (0,1)
+    - 3. Calculation with continuous numbers (1.2, 3.4, 5.6)
+
+For each of the type of problems we´ll need a diferent function, respectively:
+
+    - 1. MultinomialNB
+    - 2. BernoulliNB
+    - 3. GaussianNB
