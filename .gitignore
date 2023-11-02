@@ -131,3 +131,6 @@ dmypy.json
 # Data Files
 .csv
 .DS_STORE
+
+.dot
+.pdf
