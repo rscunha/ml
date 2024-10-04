@@ -32,3 +32,8 @@ The formula for create decision tree to solve regression problems is:
 
 ## Split Algorithm
 When we have in the dataset a continuos values variable we must need to split them in two classes, as I mentioned above. In the case of this samples, as I'm using Python, the default algorithm to do it will be the [Cart Algorithm](https://www.geeksforgeeks.org/cart-classification-and-regression-tree-in-machine-learning/). This algorithm working spliting all sample of the data from the first sample to the last one in the range calculating the average between the split parts and after calculating the cost function to figure out the best threshold for her.
+
+## Choosing another scorings
+An important thing about decision tree algorithm (and others models) is about to choose the best value of scoring to evaluate your model. Normally, when we are talking about Regression problems the Coefficient of Determination R2 is the first choose to evaluate the model, but as there are others options that can be usefull to support our decision about the model. The bellow shows others scoring types to evaluate your model:
+
+[sklearn.metrics](https://scikit-learn.org/stable/modules/model_evaluation.html)
